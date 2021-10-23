@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Web Sites and Web Design Links</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.js"></script>
+</head>
+<body>
+
+	<div id="app" class="container" style="margin-left: 0px; margin-right: 0px; font-size: 12px; width: 100%;">
+
+		<div style="text-align: center;">
+			<h1>Web Sites and Web Design Links</h1>	
+			<span>É tanto link que é melhor organizar aqui</span>
+		</div>
+
+		<div class="container">
+			<ul style="list-style-type: none; text-align: center;">
+				<li><a href="#ultra">ULTRA</a></li>
+				<li><a href="#web-site-examples">WEB SITES EXAMPLES</a></li>
+				<li><a href="#social-media">SOCIAL MEDIAS</a></li>
+				<li><a href="#web-content">WEB CONTENT</a></li>
+				<li><a href="#other-content">OTHER CONTENT</a></li>
+				<li><a href="#gear">GEAR</a></li>
+			</ul>
+		</div>
+		
+
+		<!-- ------------------------------------------------------------ -->
+		<!-- --------------------  BEST WEB ----------------------------- -->
+		<!-- ------------------------------------------------------------ -->
+
+		<br>
+		<hr>
+		<div style="text-align: center;">
+			<h2 id="ultra">Best of Web, Check List And Web Principles</h2>
+			<span>Links a ser consultados durante o desenvolvimento de um site Web</span>
+		</div>
+		<hr>
+		<br>
+
+		<div class="container">
+
+			<div class="col-md-6">
+	            <h2>ultra_main_content</h2>
+	            <ul>
+	            	<li v-for="link in ultra_main_content">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+
+          	<div class="row">
+				<div class="col-md-6">
+	            <h2>gear_main_ultra</h2>
+	            <ul>
+	            	<li v-for="link in gear_main_ultra">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+
+		</div>
+
+		<!-- ------------------------------------------------------------ -->
+		<!-- --------------------  WEB SITES EXAMPLES ------------------- -->
+		<!-- ------------------------------------------------------------ -->
+
+		<br>
+		<hr>
+		<div style="text-align: center;">
+			<h2 id="web-site-examples">WEB SITES EXAMPLES</h2>
+			<span>Sites para se baseadr, ou, copiar SEO</span>
+		</div>
+		<hr>
+		<br>
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-6">
+	            <h2>web_sites_go_examples</h2>
+	            <ul>
+	            	<li v-for="link in web_sites_go_examples">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+          	<div class="col-md-6">
+	            <h2>web_sites_examples</h2>
+	            <ul>
+	            	<li v-for="link in web_sites_examples">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+				
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+	            <h2>web_sites_eunapolis</h2>
+	            <ul>
+	            	<li v-for="link in web_sites_eunapolis">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+          	<div class="col-md-6">
+	            <h2>web_sites_portifolio_examples</h2>
+	            <ul>
+	            	<li v-for="link in web_sites_portifolio_examples">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+				
+			</div>
+
+			
+
+		</div>
+
+		<!-- ------------------------------------------------------------ -->
+		<!-- --------------------  WEB CONENT SOCIAL MEDIA -------------- -->
+		<!-- ------------------------------------------------------------ -->
+
+		<br>
+		<hr>
+		<div style="text-align: center;">
+			<h2 id="social-media">Youtube e Instagram</h2>
+			<span>Conteúdo gratuito de redes sociais</span>
+		</div>
+		<hr>
+		<br>
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-6">
+	            <h2>youtube_channels</h2>
+	            <ul>
+	            	<li v-for="link in youtube_channels">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+          	<div class="col-md-6">
+	            <h2>youtube_great_videos</h2>
+	            <ul>
+	            	<li v-for="link in youtube_great_videos">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+				
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+	            <h2>instagram_channels</h2>
+	            <ul>
+	            	<li v-for="link in instagram_channels">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+          	<div class="col-md-6">
+	            <h2>instagram_great_posts</h2>
+	            <ul>
+	            	<li v-for="link in instagram_great_posts">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+				
+			</div>
+
+			
+
+		</div>
+
+		<!-- ------------------------------------------------------------ -->
+		<!-- --------------------  WEB CONTENT-------------- -->
+		<!-- ------------------------------------------------------------ -->
+
+		<br>
+		<hr>
+		<div style="text-align: center;">
+			<h2 id="web-content">RANDOM WEB CONTENT</h2>
+			<span>Conteúdo de sites Web</span>
+		</div>
+		<hr>
+		<br>
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-6">
+	            <h2>random_web</h2>
+	            <ul>
+	            	<li v-for="link in random_web">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+          	<div class="col-md-6">
+	            <h2>web_css_tips</h2>
+	            <ul>
+	            	<li v-for="link in web_css_tips">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+				
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+	            <h2>great_content</h2>
+	            <ul>
+	            	<li v-for="link in great_content">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+       
+			</div>
+
+			
+
+		</div>
+
+		<!-- ------------------------------------------------------------ -->
+		<!-- --------------------  OTHER CONTENT -------------- -->
+		<!-- ------------------------------------------------------------ -->
+
+		<br>
+		<hr>
+		<div style="text-align: center;">
+			<h2 id="other-content" >Conteúdos Random</h2>
+			<span>Business, site de nuled theme, plugins js/css e coisas do tipo</span>
+		</div>
+		<hr>
+		<br>
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-6">
+	            <h2>nulled_themes</h2>
+	            <ul>
+	            	<li v-for="link in nulled_themes">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+          	<div class="col-md-6">
+	            <h2>js_css_plugins</h2>
+	            <ul>
+	            	<li v-for="link in js_css_plugins">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+				
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+	            <h2>visual_identity</h2>
+	            <ul>
+	            	<li v-for="link in visual_identity">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+          	<div class="col-md-6">
+	            <h2>figma_design</h2>
+	            <ul>
+	            	<li v-for="link in figma_design">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+				
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+	            <h2>business_tips</h2>
+	            <ul>
+	            	<li v-for="link in business_tips">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+          
+				
+			</div>
+
+			
+
+		</div>
+
+		<!-- ------------------------------------------------------------ -->
+		<!-- --------------------  GEAR-------------- -->
+		<!-- ------------------------------------------------------------ -->
+
+		<br>
+		<hr>
+		<div style="text-align: center;">
+			<h2 id="gear">Gears: Ferramentas gratúitas na Web</h2>
+		</div>
+		<hr>
+		<br>
+
+		<div class="container">
+
+			<!-- <div class="row">
+				<div class="col-md-6">
+	            <h2>gear_main_ultra</h2>
+	            <ul>
+	            	<li v-for="link in gear_main_ultra">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div> -->
+          	<div class="col-md-6">
+	            <h2>gear_random</h2>
+	            <ul>
+	            	<li v-for="link in gear_random">
+	            		{{link.name}} : 
+	            		<ul> <li> 
+	            			<a v-bind:href="link.link">{{link.link}}</a> 
+	            		</li> </ul>
+	            	</li>
+	            </ul>
+          	</div>
+				
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+		            <h2>gear_svg</h2>
+		            <ul>
+		            	<li v-for="link in gear_svg">
+		            		{{link.name}} : 
+		            		<ul> <li> 
+		            			<a v-bind:href="link.link">{{link.link}}</a> 
+		            		</li> </ul>
+		            	</li>
+		            </ul>
+	          	</div>
+	          	<div class="col-md-6">
+		            <h2>gear_mockup</h2>
+		            <ul>
+		            	<li v-for="link in gear_mockup">
+		            		{{link.name}} : 
+		            		<ul> <li> 
+		            			<a v-bind:href="link.link">{{link.link}}</a> 
+		            		</li> </ul>
+		            	</li>
+		            </ul>
+	          	</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+		            <h2>gear_generate_color_palette</h2>
+		            <ul>
+		            	<li v-for="link in gear_generate_color_palette">
+		            		{{link.name}} : 
+		            		<ul> <li> 
+		            			<a v-bind:href="link.link">{{link.link}}</a> 
+		            		</li> </ul>
+		            	</li>
+		            </ul>
+	          	</div>
+	          	<div class="col-md-6">
+		            <h2>gear_web_metrics</h2>
+		            <ul>
+		            	<li v-for="link in gear_web_metrics">
+		            		{{link.name}} : 
+		            		<ul> <li> 
+		            			<a v-bind:href="link.link">{{link.link}}</a> 
+		            		</li> </ul>
+		            	</li>
+		            </ul>
+	          	</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+		            <h2>gear_free_images</h2>
+		            <ul>
+		            	<li v-for="link in gear_free_images">
+		            		{{link.name}} : 
+		            		<ul> <li> 
+		            			<a v-bind:href="link.link">{{link.link}}</a> 
+		            		</li> </ul>
+		            	</li>
+		            </ul>
+	          	</div>
+	          	<div class="col-md-6">
+		            <h2>gear_seo</h2>
+		            <ul>
+		            	<li v-for="link in gear_seo">
+		            		{{link.name}} : 
+		            		<ul> <li> 
+		            			<a v-bind:href="link.link">{{link.link}}</a> 
+		            		</li> </ul>
+		            	</li>
+		            </ul>
+	          	</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+		            <h2>gear_edit_images</h2>
+		            <ul>
+		            	<li v-for="link in gear_edit_images">
+		            		{{link.name}} : 
+		            		<ul> <li> 
+		            			<a v-bind:href="link.link">{{link.link}}</a> 
+		            		</li> </ul>
+		            	</li>
+		            </ul>
+	          	</div>
+	          	<div class="col-md-6">
+		            <h2>gear_generate_new_ideias</h2>
+		            <ul>
+		            	<li v-for="link in gear_generate_new_ideias">
+		            		{{link.name}} : 
+		            		<ul> <li> 
+		            			<a v-bind:href="link.link">{{link.link}}</a> 
+		            		</li> </ul>
+		            	</li>
+		            </ul>
+	          	</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+		            <h2>gear_css_magic</h2>
+		            <ul>
+		            	<li v-for="link in gear_css_magic">
+		            		{{link.name}} : 
+		            		<ul> <li> 
+		            			<a v-bind:href="link.link">{{link.link}}</a> 
+		            		</li> </ul>
+		            	</li>
+		            </ul>
+	          	</div>
+	          	
+			</div>
+
+		</div>
+
+
+	<!-- Fim do VueJS -->
+	</div>
+
+	<!--  Funções -->
+	<script src="utils/functions.js"></script>
+
+	<!-- Lista de Links -->
+	<script src="utils/my-links.js"></script>
+
+	<!-- Script em Vue -->
+	<script type="text/javascript">
+
+
+		new Vue({
+		  el: '#app',
+		  data: {
+		  	ultra_main_content : name_and_link_to_list_of_obj(ultra_main_content),
+			random_web : name_and_link_to_list_of_obj(random_web),
+			web_sites_examples : name_and_link_to_list_of_obj(web_sites_examples),
+			web_sites_portifolio_examples : name_and_link_to_list_of_obj(web_sites_portifolio_examples),
+			web_sites_go_examples : name_and_link_to_list_of_obj(web_sites_go_examples),
+			web_sites_eunapolis : name_and_link_to_list_of_obj(web_sites_eunapolis),
+			youtube_channels : name_and_link_to_list_of_obj(youtube_channels),
+			youtube_great_videos : name_and_link_to_list_of_obj(youtube_great_videos),
+			instagram_channels : name_and_link_to_list_of_obj(instagram_channels),
+			instagram_great_posts : name_and_link_to_list_of_obj(instagram_great_posts),
+			web_css_tips : name_and_link_to_list_of_obj(web_css_tips),
+			nulled_themes : name_and_link_to_list_of_obj(nulled_themes),
+			great_content : name_and_link_to_list_of_obj(great_content),
+			figma_design : name_and_link_to_list_of_obj(figma_design),
+			business_tips : name_and_link_to_list_of_obj(business_tips),
+			js_css_plugins : name_and_link_to_list_of_obj(js_css_plugins),
+			visual_identity : name_and_link_to_list_of_obj(visual_identity),
+			gear_main_ultra : name_and_link_to_list_of_obj(gear_main_ultra),
+			gear_svg : name_and_link_to_list_of_obj(gear_svg),
+			gear_mockup : name_and_link_to_list_of_obj(gear_mockup),
+			gear_generate_color_palette : name_and_link_to_list_of_obj(gear_generate_color_palette),
+			gear_web_metrics : name_and_link_to_list_of_obj(gear_web_metrics),
+			gear_free_images : name_and_link_to_list_of_obj(gear_free_images),
+			gear_seo : name_and_link_to_list_of_obj(gear_seo),
+			gear_edit_images : name_and_link_to_list_of_obj(gear_edit_images),
+			gear_generate_new_ideias : name_and_link_to_list_of_obj(gear_generate_new_ideias),
+			gear_css_magic : name_and_link_to_list_of_obj(gear_css_magic),
+			gear_random : name_and_link_to_list_of_obj(gear_random),
+		  }
+		});
+
+
+	</script>
+</body>
+</html>
+
+
